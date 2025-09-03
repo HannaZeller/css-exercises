@@ -80,6 +80,7 @@ button.cancel {
 .head-x{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
  .text{
   margin-top: 8px;
