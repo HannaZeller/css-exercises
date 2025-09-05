@@ -31,3 +31,14 @@ input {
 .footer {
   background-color: #f1f0f0;
 }
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  list-style-type: none;
+  
+}
