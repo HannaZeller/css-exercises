@@ -28,9 +28,23 @@ input {
   width: 400px;
 }
 
+.header{
+  display: flex; 
+  justify-content: space-between;
+  padding-right:18px;
+}
+
 .footer {
   background-color: #f1f0f0;
+  display: flex; 
+  justify-content: space-between;
+  padding-right: 18px;
 }
+.left-links, .right-links{
+  display: flex;
+  gap:10px;
+}
+
 
 a {
   /* this removes the line under our links */
@@ -40,5 +54,4 @@ a {
 
 ul {
   list-style-type: none;
-  
 }
