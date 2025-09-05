@@ -32,7 +32,7 @@ input {
 .header, .footer{
   display: flex; 
   justify-content: space-between;
-  padding:6px 18px;
+  padding:18px;
 }
 
 .footer {
@@ -42,6 +42,7 @@ input {
   padding: 0px;
   display: flex;
   gap:10px;
+  margin: 0px;
 }
 
 
@@ -59,5 +60,6 @@ ul {
   display:flex; 
   flex-direction:column;
   align-items:center;
+  justify-content: center;
   gap: 18px;
 }
